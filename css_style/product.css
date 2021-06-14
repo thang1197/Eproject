@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.product-content{
+    border: 1px solid black;
+    width: 1020px;
+}
+.product-content .title{
+    text-align: center;
+}
+.product-content .title h1{
+    font-weight: bolder;
+    color: rgb(35, 5, 63);
+}
+.ad-display{
+    width: 1020px;
+    height: 400px;
+    background-size: 100%;
+    background-image: url('image/product/banner1.jpg');
+    animation-name: img;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    background-repeat: no-repeat;
+}
+@keyframes img {
+    0% {background-image: url('image/product/banner1.jpg');}
+    25% {background-image: url('image/product/banner2.jpg');}
+    50% {background-image: url('image/product/banner3.jpg');}
+    75% {background-image: url('image/product/banner4.jpg');}
+    100% {background-image: url('image/product/banner1.jpg');}
+}
+.agate{
+    height: 300px;
+    width: 300px;
+    background-size: 100%;
+    background-image: url('image/agate/agate1/agate1.jpg');
+    animation-name: agate;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    background-repeat: no-repeat;
+}
+@keyframes agate {
+    0% {background-image: url('image/agate/agate1/agate1.jpg');}
+    25% {background-image: url('image/agate/agate2/agate2.jpg');}
+    50% {background-image: url('image/agate/agate3/agate3.jpg');}
+    75% {background-image: url('image/agate/agate4/agate4.jpg');}
+    100% {background-image: url('image/agate/agate1/agate1.jpg');} 
+}
+.amber{
+    height: 300px;
+    width: 300px;
+    background-size: 100%;
+    background-image: url('image/amber/vong\ tay\ ho\ phach.jpg');
+    animation-name: amber;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    background-repeat: no-repeat;
+}
+@keyframes amber {
+    0% {background-image: url('image/amber/vong\ tay\ ho\ phach.jpg');}
+    25% {background-image: url('image/amber/dong\ ho\ ho\ phach.jpg');}
+    50% {background-image: url('image/amber/mặt\ dây\ chuyền.jpg');}
+    75% {background-image: url('image/amber/nhẫn\ hỏ\ phách.jpg');}
+    100% {background-image: url('image/amber/vong\ tay\ ho\ phach.jpg');} 
+}
+.diamond{
+    height: 300px;
+    width: 300px;
+    background-size: 100%;
+    background-image: url('image/diamond/diamond4/diamond4-1.png');
+    animation-name: diamond;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    background-repeat: no-repeat;
+}
+@keyframes diamond {
+    0% {background-image: url('image/diamond/diamond4/diamond4-1.png');}
+    25% {background-image: url('image/diamond/diamond1/diamond1-2.png');}
+    50% {background-image: url('image/diamond/diamond2/diamond2-1.png');}
+    75% {background-image: url('image/diamond/diamond3/diamond3-1.png');}
+    100% {background-image: url('image/diamond/diamond4/diamond4-1.png');} 
+}
+.quartz{
+    height: 300px;
+    width: 300px;
+    background-size: 100%;
+    background-image: url('image/quartz/quartz1/vongtaynuthachanhtim5av317.jpg');
+    animation-name: quartz;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    background-repeat: no-repeat;
+}
+@keyframes quartz {
+    0% {background-image: url('image/quartz/quartz1/vongtaynuthachanhtim5av317.jpg');}
+    25% {background-image: url('image/quartz/quartz2/vong-tay-thach-anh-toc-do.jpg');}
+    50% {background-image: url('image/quartz/quartz3/vongtaythac-anhtocxanh.jpg');}
+    75% {background-image: url('image/quartz/quartz4/vong-tay-phong-thuy-thach-anh-trang.png');}
+    100% {background-image: url('image/quartz/quartz1/vongtaynuthachanhtim5av317.jpg');} 
+}
+.row1{
+    display: flex;
+    margin: 40px 0;
+    padding: 0 60px;
+    justify-content: space-between;
+}
+.row1 img{
+    height: 300px;
+    width: 300px;
+}
+.box{
+    text-align: center;
+    border: 2px solid rgb(61, 3, 61);
+}
+.row1 li{
+    list-style: none;
+}
+.row1 li a{
+    text-decoration: none;
+    font-size: 2em;
+}
+.row2{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+    padding: 0 60px;
+}
+.row2 img{
+    height: 300px;
+    width: 300px;
+}
+.row2 li{
+    list-style: none;
+}
+.row2 li a{
+    text-decoration: none;
+    font-size: 2em;
+}
+.content a{
+    color: black;
+    font-weight: bold;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.content a:hover{
+    color: rgb(59, 16, 100);
+}
+.website-body{
+    display: flex;
+    width: 100%vw;
+}
+.website-body .banner{
+    width: fit-content;
+}
+.website-body .banner .ad-banner{
+    width: 250px;
+    height: 250px;
+    margin: 50px 0;
+}
+.website-body .banner .ad-banner img{
+    width: 250px;
+    height: 250px;
+}

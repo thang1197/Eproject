@@ -1,0 +1,136 @@
+.content{
+    display: flex;
+    margin: 40px 30px;
+    justify-content: space-between;
+    border: 4px solid rgb(66, 7, 66);
+}
+.content .btn-img img{
+    height: 100px;
+    width: 100px;
+}
+.content .image img{
+    width: 400px;
+    height: 400px;
+}
+.content .info h2{
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(56, 7, 102);
+    font-weight: bolder;
+}
+.content .info p{
+    text-transform: uppercase;
+    font-size: 2em;
+    color: red;
+    font-weight: bolder;
+}
+.content .info table{
+    border: 4px solid rgb(77, 8, 77);
+    border-collapse: collapse;
+    width: 100%;
+    height: 250px;
+}
+.content .info td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 0 20px;
+    font-size: 1.5em;
+}
+.content .info .td1{
+    width: 30%;
+    background-color: rgb(188, 123, 248);
+    font-weight: bolder;
+    color: rgb(52, 12, 90);
+}
+.content-info{
+    margin: 100px 30px;
+}
+.content-info p{
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+}
+.button{
+    margin: 300px 50px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    background-color: rgb(146, 32, 146);
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 15px;
+    width: 200px;
+}
+.feedback{
+    border: 2px solid rgb(73, 8, 73);
+}
+.feedback .feed-title{
+    text-align: center;
+}
+.feedback .feedbtn{
+    width: 200px;
+    font-size: 1.5em;
+    margin-right: 30px;
+}
+.feedback td{
+    color: black;
+}
+.feedback h2{
+    color: black;
+    font-weight: bolder;
+}
+.product-content{
+    border: 2px solid rgb(73, 8, 73);
+}
+.related-product{
+    margin: 100px 30px;
+    text-align: center;
+    border: 2px solid rgb(73, 8, 73);
+    padding-bottom: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.related-product .title{
+    margin-bottom: 50px;
+}
+.related-product .title h1{
+    color: rgb(53, 15, 88);
+    font-weight: bolder;
+}
+.related-product .related-product-img{
+    display: flex;
+    justify-content: space-between;
+}
+.related-product .product img{
+    width: 200px;
+    height: 200px;
+}
+.related-product-img .product{
+    border: 2px solid rgb(53, 15, 88);
+}
+.website-body{
+    display: flex;
+    width: 100%vw;
+}
+.website-body .banner{
+    width: fit-content;
+}
+.website-body .banner .ad-banner{
+    width: 250px;
+    height: 250px;
+    margin: 50px 0;
+}
+.website-body .banner .ad-banner img{
+    width: 250px;
+    height: 250px;
+}
+.content-img .picture{
+    width: fit-content;
+    margin: 100px auto;
+}
+.content-img .picture img{
+    width: 400px;
+    height: 400px;
+}
